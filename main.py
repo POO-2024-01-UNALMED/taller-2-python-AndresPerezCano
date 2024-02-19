@@ -4,9 +4,9 @@ class Asiento:
         self.precio = precio
         self.registro = registro
 
-   def  cambiarColor(self, color):
-    if color == 'rojo' or color == 'verde' or color == 'amarillo' or color == 'negro' or color == 'blanco':
-        self.color = color
+    def  cambiarColor(self, color):
+        if color == "rojo" or color == "verde" or color == "amarillo" or color == "negro" or color == "blanco":
+            self.color = color
 
 class Auto:
     cantidadCreados = 0
@@ -18,7 +18,7 @@ class Auto:
         self.registro = registro
 
         def cantidadAsientos(self):
-             numeroAsientos = 0
+            numeroAsientos = 0
             for i in self.asientos:
                 if i != None:
                     numeroAsientos += 1
